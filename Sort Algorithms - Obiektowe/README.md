@@ -33,6 +33,75 @@ __Nie udało nam się zrobić schematu blokowego. Oto nasze starania.__
 
 <img src='./Quick Sort.png' alt="Quick Sort" style='width: 50%'/>
 
+__Za to mamy kod napisany przez nas w C__
+
+```c
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+void tabGen(int *tab, int n);
+void quick_sort(int *tab, int lewy, int prawy);
+
+int main(void) {
+    int n, *tab;
+    srand((unsigned int)time(NULL));
+
+    printf("Podaj wielkosc tablicy: ");
+    scanf("%d", &n);
+    
+    tab = malloc(sizeof(n));
+
+    printf("\nWygenerowana tablica to: \n");
+    tabGen(tab, n);
+
+    printf("\nPosortowana tablica to: \n");
+    quick_sort(tab, 0, n-1);
+    for (int i = 0; i < n; i++) {
+        printf("%d ", tab[i]);
+    }
+
+    return 0;
+}
+
+void tabGen(int *tab, int n) {
+    for (int i = 0; i < n; i++){
+        tab[i] = rand() % 100 + 1;
+        printf("%d ", tab[i]);
+    }
+}
+
+void quick_sort(int *tab, int poczatek, int koniec) {
+    int p, q, pivot, pomocnicza;
+    if (poczatek >= koniec)
+        return;
+    p = poczatek -1;
+    q = koniec + 1;
+    pivot = tab[(poczatek + koniec) / 2];
+
+    while (1) {
+        while (pivot > tab[++p])
+            ;
+        while (pivot < tab[--q])
+            ;
+        if (p <= q) {
+            pomocnicza = tab[p];
+            tab[p] = tab[q];
+            tab[q] = pomocnicza;
+        } else 
+            break;
+        
+    }
+
+    if (q > poczatek)
+        quick_sort(tab, poczatek, q);
+    if (p < koniec)
+        quick_sort(tab, p, koniec);
+}
+
+```
+
 ___
 
 
