@@ -4,6 +4,8 @@
 
 ### Bubble Sort
 
+#### Lista kroków:
+
 1. Rozpocznij proces.
 2. Podaj listę.
 3. Spójrz na pierwszy element listy.
@@ -13,11 +15,15 @@
 7. Jeśli jakakolwiek liczba została zamieniona, przejdź do kroku 3.
 8. Zakończ proces.
 
+#### Schemat blokowy:
+
 <img src="./BUBBLE SORT.png" alt="Bubble Sort Block Scheme" style='width: 50%'/>
 
 ___
 
 ### Quick Sort
+
+#### Lista kroków:
 
 1. Rozpocznij proces.
 2. Wprowadź listę, i & j = 0, pivot = null.
@@ -28,6 +34,8 @@ ___
 7. Jeśli i < j to zamień lista[i] z lista[j].
 8. Powtarzaj kroki 4, 5, 6, aż i > j.
 9. Zamień element pivot na element lista[j].
+
+#### Schemat blokowy:
 
 __Nie udało nam się zrobić schematu blokowego. Oto nasze starania.__
 
