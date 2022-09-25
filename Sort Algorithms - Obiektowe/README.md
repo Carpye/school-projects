@@ -31,7 +31,7 @@ ___
 
 __Nie udało nam się zrobić schematu blokowego. Oto nasze starania.__
 
-<img src='./quick sort.png' alt="Quick Sort" style='width: 50%'/>
+<img src='./Quick Sort.png' alt="Quick Sort" style='width: 50%'/>
 
 ```c
 
