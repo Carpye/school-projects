@@ -31,9 +31,7 @@ ___
 
 __Nie udało nam się zrobić schematu blokowego. Oto nasze starania.__
 
-<img src='./Quick Sort.png' alt="Quick Sort" style='width: 50%'/>
-
-__Za to mamy kod napisany przez nas w C__
+<img src='./quick sort.png' alt="Quick Sort" style='width: 50%'/>
 
 ```c
 
@@ -105,4 +103,4 @@ void quick_sort(int *tab, int poczatek, int koniec) {
 ___
 
 
-##### Kacper Kozłowski i Krzysztof Godyń
+__Carpye & [@Verti1234]('https://github.com/verti1234')__
