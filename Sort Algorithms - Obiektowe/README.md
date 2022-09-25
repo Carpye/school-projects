@@ -103,4 +103,4 @@ void quick_sort(int *tab, int poczatek, int koniec) {
 ___
 
 
-__Carpye & [@Verti1234]('https://github.com/verti1234')__
+__Carpye & Verti1234__
