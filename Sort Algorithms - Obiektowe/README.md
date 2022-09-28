@@ -29,9 +29,11 @@ ___
 8. Powtarzaj kroki 4, 5, 6, aż i > j.
 9. Zamień element pivot na element lista[j].
 
-__Nie udało nam się zrobić schematu blokowego. Oto nasze starania.__
+<img src='./Quick Sort2.png' alt="Quick Sort" style='width: 50%'/>
 
-<img src='./Quick Sort.png' alt="Quick Sort" style='width: 50%'/>
+___
+
+__Quick Sort w C__
 
 ```c
 
