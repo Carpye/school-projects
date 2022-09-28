@@ -13,7 +13,7 @@
 7. Jeśli jakakolwiek liczba została zamieniona, przejdź do kroku 3.
 8. Zakończ proces.
 
-<img src="./BUBBLE SORT.png" alt="Bubble Sort Block Scheme" style='width: 50%'/>
+<img src="./Bubble Sort.png" alt="Bubble Sort Block Scheme" style='width: 50%'/>
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 __Nie udało nam się zrobić schematu blokowego. Oto nasze starania.__
 
-<img src='./quick sort.png' alt="Quick Sort" style='width: 50%'/>
+<img src='./Quick Sort.png' alt="Quick Sort" style='width: 50%'/>
 
 ```c
 
